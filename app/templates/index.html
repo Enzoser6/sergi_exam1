@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Enzo Sergi 28/09/2024</title>
-</head>
-<body>
-<h1>Welcome to Enzo Sergi's Best Website</h1>
-<br>
-<img src="{{ url_for('static', filename='assets/enzo.jpeg') }}" alt=*Enzo playing tennis young*>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Welcome to Enzo Sergi's Best Website 28/09/2024</h1>
+<es>
+<ing src="{{ url_for('static', filename='assets/enzo.jpeg') }}" alt="Enzo Sergi at GCSU" style="width:"300" height="300">
+
+    {% endblock %}
